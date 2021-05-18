@@ -2,13 +2,13 @@
 .flex-container {
     display: flex;
     flex-flow:row wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .inline-flex-container{
     display: inline-flex;
     flex-flow:row wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 
 }
 
