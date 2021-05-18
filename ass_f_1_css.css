@@ -1,0 +1,52 @@
+*
+.flex-container{
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.con{
+    display: flex;
+}
+
+.inline-flex-container{
+    display: inline;
+    width: 35%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.inline-big-flex-container{
+    display: inline-flex;
+    width: 65%;   
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h2{
+    display: block;
+}
+
+
+.bg-blue{
+    background-color: skyblue;
+}
+
+
+.bg-red{
+    background-color: tomato;
+}
+
+
+
+.bg-green{
+    background-color: lightgreen;
+}
+
+.flex-container>div{
+    background-color: darkgray;
+    border: 1px solid black;
+    margin: 10px;
+    width: 60px;
+}
