@@ -40,8 +40,10 @@
 
 .d2 {
     order: 3;
+    flex-grow: 4;
 } 
 
 .d3 {
     order: 2;
+    flex-shrink: 1;
 }
